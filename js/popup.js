@@ -22,7 +22,7 @@ window.onload = function() {
 btn.onclick = function() {
     // 显示弹窗并修改内容为图片
     popup.style.display = "flex";
-    popupMessage.innerHTML = '<img src="images/bm.jpg" alt="报名图片" class="popup-image">'; // 改为显示图片
+    popupMessage.innerHTML = '<img src="images/bm.jpg" alt="群号：1007991448" class="popup-image">'; // 改为显示图片
 }
 
 // 当点击关闭按钮时关闭弹窗，并播放音频
